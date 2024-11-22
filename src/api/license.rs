@@ -171,7 +171,7 @@ mod tests {
     //     // test user limit
     //     let admin_token = server.login_admin().await;
     //     for i in 0..30 {
-    //         // user default limit: 20
+    //         // user default limit: 200
     //         server.create_user(&admin_token, format!("user{}@voce.chat",
     // i)).await;     }
     //
